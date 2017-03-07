@@ -1,4 +1,4 @@
--- This file has been generated from package.yaml by hpack version 0.14.1.
+-- This file has been generated from package.yaml by hpack version 0.17.0.
 --
 -- see: https://github.com/sol/hpack
 
@@ -8,7 +8,8 @@ license:             BSD3
 license-file:        LICENSE
 author:              Nikita Karetnikov,
                      Peter Simons,
-                     Aaron Wolf
+                     Aaron Wolf,
+                     Eric Bailey
 maintainer:          Peter Simons <simons@cryp.to>
 homepage:            https://github.com/peti/titlecase#readme
 bug-reports:         https://github.com/peti/titlecase/issues
