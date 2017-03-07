@@ -36,6 +36,7 @@ executables:
   titlecase:
     main:               Main.hs
     dependencies:
+      - cmdargs
       - titlecase
 
 tests:

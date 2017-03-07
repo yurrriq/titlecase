@@ -50,6 +50,7 @@ executable titlecase
     blaze-markup,
     semigroups,
     text,
+    cmdargs,
     titlecase
 
 test-suite test
