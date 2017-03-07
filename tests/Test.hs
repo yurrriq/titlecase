@@ -1,7 +1,7 @@
 module Main where
 
-import           Test.Tasty
 import qualified Test.Property as Property
+import           Test.Tasty
 import qualified Test.Unit     as Unit
 
 main :: IO ()

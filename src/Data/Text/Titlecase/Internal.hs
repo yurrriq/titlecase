@@ -10,13 +10,13 @@
 
 module Data.Text.Titlecase.Internal where
 
-import           Prelude             (Eq, Show, Bool, ($), (.), uncurry)
 import           Control.Applicative
 import qualified Data.Char           as Char
 import           Data.Foldable       (elem)
 import           Data.List.NonEmpty  hiding (unwords)
 import           Data.Semigroup
 import           Data.Text           hiding (toTitle)
+import           Prelude             (Bool, Eq, Show, uncurry, ($), (.))
 import           Text.Blaze
 
 -- * Types

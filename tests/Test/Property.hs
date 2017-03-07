@@ -4,7 +4,6 @@
 
 module Test.Property where
 
-import           Prelude                      (($), (.), not)
 import           Control.Applicative
 import qualified Data.List                    as List
 import qualified Data.List.NonEmpty           as NonEmpty
@@ -12,6 +11,7 @@ import           Data.Semigroup
 import           Data.Text                    hiding (toTitle)
 import           Data.Text.Titlecase
 import           Data.Text.Titlecase.Internal
+import           Prelude                      (not, ($), (.))
 import           Test.Tasty
 import           Test.Tasty.QuickCheck
 

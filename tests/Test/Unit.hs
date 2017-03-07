@@ -3,12 +3,13 @@
 
 module Test.Unit where
 
-import           Prelude                      (($), (.))
 import           Data.Foldable                (mapM_)
 import           Data.Text                    hiding (toTitle)
 import           Data.Text.Titlecase
-import           Data.Text.Titlecase.Internal hiding (articles, conjunctions, prepositions)
+import           Data.Text.Titlecase.Internal hiding (articles, conjunctions,
+                                               prepositions)
 import qualified Data.Text.Titlecase.Internal as Titlecase
+import           Prelude                      (($), (.))
 import           Test.Tasty
 import           Test.Tasty.HUnit
 

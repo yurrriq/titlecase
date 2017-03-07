@@ -1,16 +1,17 @@
+{-# LANGUAGE MultiWayIf        #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE MultiWayIf        #-}
 
 module Data.Text.Titlecase
   ( Titlecase
   , titlecase
   ) where
 
-import           Prelude                      (Int, ($), (==), (||), (&&), succ, otherwise)
 import qualified Data.List                    as List
 import           Data.Text                    hiding (toTitle)
 import           Data.Text.Titlecase.Internal
+import           Prelude                      (Int, otherwise, succ, ($), (&&),
+                                               (==), (||))
 
 -- | Capitalize all English words except 'articles' (a, an, the),
 -- coordinating 'conjunctions' (for, and, nor, but, or, yet, so), and
